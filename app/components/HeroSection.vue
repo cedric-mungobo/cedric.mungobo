@@ -24,7 +24,7 @@
           <!-- Profile Picture with Primary Border -->
           <div class="relative mb-8">
             <div class="absolute -inset-3 rounded-2xls border-8 border-primary-400 transform rotate-12"></div>
-            <div class="relative w-64 h-64 rounded-2xl overflow-hidden bg-primary-200 ring-4 ring-white shadow-lg">
+            <div class="relative w-48 h-48 md:w-64 md:h-64 rounded-2xl overflow-hidden bg-primary-200 ring-4 ring-white shadow-lg">
               <picture>
                 <source srcset="/images/profil_compressed.jpg" type="image/jpeg">
                 <img
@@ -68,7 +68,7 @@
           <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4" style="font-family: 'Inter', -apple-system, sans-serif; font-weight: 700; letter-spacing: -0.03em;">
             Je suis Cedric Mungobo,
           </h1>
-          <h2 class="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-6 font-mono" style="letter-spacing: -0.02em;">
+          <h2 class="text-2xl md:text-3xl lg:text-3xl font-bold text-gray-900 mb-6 font-mono" style="letter-spacing: -0.02em;">
             Ingénieur logiciel
           </h2>
           
@@ -78,9 +78,9 @@
           </p>
           
           <p class="text-base md:text-lg text-gray-600 leading-relaxed mb-8 max-w-2xl">
-            Je conçois et développe des solutions adaptées aux besoins spécifiques des entreprises et des particuliers. 
-            Ma passion pour l'apprentissage continu me pousse à rester à jour avec les dernières technologies 
-            et frameworks du secteur pour offrir les meilleures solutions.
+            Avec plus de 4 ans d'expérience et plus de 20 projets réalisés, je conçois et développe des solutions 
+            adaptées aux besoins spécifiques des entreprises et des particuliers. Ma passion pour l'apprentissage 
+            continu me pousse à rester à jour avec les dernières technologies et frameworks du secteur.
           </p>
           
           <a 
