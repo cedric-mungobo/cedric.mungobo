@@ -1,5 +1,5 @@
 <template>
-  <section id="hero" class="relative pt-32 pb-20 px-4  max-w-4xl mx-auto  sm:px-6 lg:px-8 min-h-screen flex items-center overflow-hidden bg-white">
+  <section id="hero" class="relative pt-32 pb-20 px-4   sm:px-6 lg:px-8 min-h-screen flex items-center overflow-hidden bg-white">
     <!-- Background Grid Pattern -->
     <div class="absolute inset-0 opacity-[0.04]" style="background-image: linear-gradient(rgba(0,0,0,0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(0,0,0,0.08) 1px, transparent 1px); background-size: 50px 50px;"></div>
     
@@ -17,20 +17,20 @@
       </svg>
     </div>
     
-    <div class="max-w-7xl mx-auto w-full relative z-10">
-      <div class="grid md:grid-cols-3 gap-1 items-center">
+    <div class="max-w-5xl mx-auto w-full relative z-10">
+      <div class="grid md:grid-cols-3 gap-4 items-center">
         <!-- Left Side - Profile -->
         <div class="flex flex-col items-center md:items-start">
           <!-- Profile Picture with Primary Border -->
           <div class="relative mb-8">
-            <div class="absolute -inset-3 rounded-full border-8 border-primary-400 transform rotate-12"></div>
-            <div class="relative w-64 h-64 rounded-full overflow-hidden bg-gray-200 ring-4 ring-white shadow-lg">
+            <div class="absolute -inset-3 rounded-2xls border-8 border-primary-400 transform rotate-12"></div>
+            <div class="relative w-64 h-64 rounded-2xl overflow-hidden bg-primary-200 ring-4 ring-white shadow-lg">
               <picture>
                 <source srcset="/images/profil_compressed.jpg" type="image/jpeg">
                 <img
                   src="/images/profil_compressed.jpg"
                   alt="Cedric Mungobo"
-                  class="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                  class="w-full h-full object-cover object-top transition-transform duration-300 hover:scale-105"
                   loading="lazy"
                   width="800"
                   height="1000"
@@ -64,18 +64,23 @@
         </div>
         
         <!-- Right Side - Content -->
-        <div class="text-center md:text-left md:col-span-3">
-          <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-4" style="font-family: 'Inter', -apple-system, sans-serif; font-weight: 700; letter-spacing: -0.03em;">
+        <div class="text-center md:text-left md:col-span-2">
+          <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4" style="font-family: 'Inter', -apple-system, sans-serif; font-weight: 700; letter-spacing: -0.03em;">
             Je suis Cedric Mungobo,
           </h1>
-          <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 font-mono" style="letter-spacing: -0.02em;">
-            Développeur Web & Mobile
+          <h2 class="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-6 font-mono" style="letter-spacing: -0.02em;">
+            Ingénieur logiciel
           </h2>
           
           <p class="text-base md:text-lg text-gray-600 leading-relaxed mb-8 max-w-2xl">
-            En tant que développeur web orienté back-end avec une ouverture sur le front-end et le mobile, 
-            je suis passionné par les technologies et l'innovation. Curieux, adaptable et rigoureux, 
-            je mets mes compétences au service de projets ambitieux, en alliant performance technique et esprit d'équipe.
+            Passionné par la programmation et le développement, je crée des solutions informatiques sur mesure : 
+            sites web, applications mobiles, applications desktop et applications web.
+          </p>
+          
+          <p class="text-base md:text-lg text-gray-600 leading-relaxed mb-8 max-w-2xl">
+            Je conçois et développe des solutions adaptées aux besoins spécifiques des entreprises et des particuliers. 
+            Ma passion pour l'apprentissage continu me pousse à rester à jour avec les dernières technologies 
+            et frameworks du secteur pour offrir les meilleures solutions.
           </p>
           
           <a 
@@ -90,47 +95,8 @@
         </div>
       </div>
       
-      <!-- Technology Logos Section -->
-      <div class="mt-20 pt-12 border-t border-gray-200">
-        <div class="flex flex-wrap justify-center items-center gap-8 md:gap-12">
-          <div class="tech-logo" title="Laravel">
-            <svg class="w-12 h-12" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M128 0L0 128L128 256L256 128L128 0Z" fill="#FF2D20"/>
-              <path d="M128 32L32 128L128 224L224 128L128 32Z" fill="#FF2D20" opacity="0.8"/>
-            </svg>
-          </div>
-          <div class="tech-logo" title="Flutter">
-            <svg class="w-12 h-12" viewBox="0 0 256 256" fill="none">
-              <path d="M128 0L0 128L128 256L256 128L128 0Z" fill="#02569B"/>
-              <path d="M128 64L64 128L128 192L192 128L128 64Z" fill="#027DFD"/>
-            </svg>
-          </div>
-          <div class="tech-logo" title="Vue.js">
-            <svg class="w-12 h-12" viewBox="0 0 256 256" fill="none">
-              <path d="M128 0L0 128L128 256L256 128L128 0Z" fill="#4FC08D"/>
-              <path d="M128 32L32 128L128 224L224 128L128 32Z" fill="#35495E"/>
-            </svg>
-          </div>
-          <div class="tech-logo" title="Nuxt.js">
-            <svg class="w-12 h-12" viewBox="0 0 256 256" fill="none">
-              <circle cx="128" cy="128" r="100" fill="#00DC82"/>
-              <circle cx="128" cy="128" r="60" fill="#18181B"/>
-            </svg>
-          </div>
-          <div class="tech-logo" title="Docker">
-            <svg class="w-12 h-12" viewBox="0 0 256 256" fill="none">
-              <path d="M128 0L0 128L128 256L256 128L128 0Z" fill="#2496ED"/>
-              <path d="M128 40L40 128L128 216L216 128L128 40Z" fill="#2496ED" opacity="0.8"/>
-            </svg>
-          </div>
-          <div class="tech-logo" title="Vite">
-            <svg class="w-12 h-12" viewBox="0 0 256 256" fill="none">
-              <path d="M128 0L0 128L128 256L256 128L128 0Z" fill="#646CFF"/>
-              <path d="M128 32L32 128L128 224L224 128L128 32Z" fill="#FFC700"/>
-            </svg>
-          </div>
-        </div>
-      </div>
+      <!-- Technology Logos Section with Infinite Scroll -->
+      <TechLogosScroll />
     </div>
   </section>
 </template>
@@ -212,18 +178,4 @@ const socialLinks = [
   filter: drop-shadow(0 2px 4px rgba(248, 113, 113, 0.3));
 }
 
-/* Technology Logos */
-.tech-logo {
-  transition: transform 0.3s ease, opacity 0.3s ease;
-  opacity: 0.8;
-}
-
-.tech-logo:hover {
-  transform: scale(1.1);
-  opacity: 1;
-}
-
-.tech-logo svg {
-  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
-}
 </style>
