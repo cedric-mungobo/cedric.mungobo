@@ -1,7 +1,7 @@
 <template>
-  <div class="min-h-screen bg-white relative">
+  <div class="min-h-screen  relative">
     <!-- Background Pattern -->
-    <div class="absolute inset-0 bg-white dark:bg-gray-950">
+    <div class="absolute inset-0">
       <div class="absolute inset-0 opacity-[0.15] dark:opacity-[0.1]">
         <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
           <pattern id="binary-pattern" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
@@ -33,10 +33,9 @@
           
           <!-- Center: Navigation Links (desktop only) -->
           <div class="hidden md:flex items-center space-x-8 absolute left-1/2 transform -translate-x-1/2">
-            <a href="#about" class="text-gray-700 hover:text-gray-900 transition-colors text-sm font-medium">À propos</a>
-            <a href="#services" class="text-gray-700 hover:text-gray-900 transition-colors text-sm font-medium">Services</a>
+            <a href="#hero" class="text-gray-700 hover:text-gray-900 transition-colors text-sm font-medium">Accueil</a>
             <a href="#projects" class="text-gray-700 hover:text-gray-900 transition-colors text-sm font-medium">Projets</a>
-            <a href="#experience" class="text-gray-700 hover:text-gray-900 transition-colors text-sm font-medium">Expériences</a>
+            <a href="#services" class="text-gray-700 hover:text-gray-900 transition-colors text-sm font-medium">Services</a>
           </div>
           
           <!-- Right: Contact Button (desktop) + Burger Menu (mobile) -->
@@ -59,10 +58,9 @@
         <!-- Mobile Menu -->
         <div v-if="mobileMenuOpen" class="md:hidden pb-4">
           <div class="flex flex-col space-y-4">
-            <a href="#about" @click="mobileMenuOpen = false" class="text-gray-700 hover:text-gray-900 transition-colors">À propos</a>
-            <a href="#services" @click="mobileMenuOpen = false" class="text-gray-700 hover:text-gray-900 transition-colors">Services</a>
+            <a href="#hero" @click="mobileMenuOpen = false" class="text-gray-700 hover:text-gray-900 transition-colors">Accueil</a>
             <a href="#projects" @click="mobileMenuOpen = false" class="text-gray-700 hover:text-gray-900 transition-colors">Projets</a>
-            <a href="#experience" @click="mobileMenuOpen = false" class="text-gray-700 hover:text-gray-900 transition-colors">Expériences</a>
+            <a href="#services" @click="mobileMenuOpen = false" class="text-gray-700 hover:text-gray-900 transition-colors">Services</a>
             <a href="#contact" @click="mobileMenuOpen = false" class="border-2 border-primary-400 bg-white text-gray-900 px-4 py-2 rounded-lg hover:bg-primary-400 hover:text-white transition-all text-center">Me Contacter</a>
           </div>
         </div>
