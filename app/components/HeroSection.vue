@@ -20,7 +20,7 @@
     <div class="max-w-5xl mx-auto w-full relative z-10">
       <div class="grid md:grid-cols-3 gap-4 items-center">
         <!-- Left Side - Profile -->
-        <div class="flex flex-col items-center md:items-start">
+        <div v-motion-fade-bottom class="flex flex-col items-center md:items-start">
           <!-- Profile Picture with Primary Border -->
           <div class="relative mb-8">
             <div class="absolute -inset-3 rounded-2xl border-8 border-primary-400 transform rotate-12"></div>
@@ -64,7 +64,13 @@
         </div>
         
         <!-- Right Side - Content -->
-        <div class="text-center md:text-left md:col-span-2">
+        <div 
+          v-motion
+          :initial="{ opacity: 0, y: 50 }"
+          :visible="{ opacity: 1, y: 0 }"
+          :delay="200"
+          class="text-center md:text-left md:col-span-2"
+        >
           <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4" style="font-family: 'Inter', -apple-system, sans-serif; font-weight: 700; letter-spacing: -0.03em;">
             Je suis Cedric Mungobo,
           </h1>
@@ -96,7 +102,14 @@
       </div>
       
       <!-- Technology Logos Section with Infinite Scroll -->
-      <TechLogosScroll />
+      <div 
+        v-motion
+        :initial="{ opacity: 0, y: 50 }"
+        :visible="{ opacity: 1, y: 0 }"
+        :delay="400"
+      >
+        <TechLogosScroll />
+      </div>
     </div>
   </section>
 </template>

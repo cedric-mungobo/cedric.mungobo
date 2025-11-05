@@ -2,16 +2,26 @@
   <section id="services" class="py-20 px-4 sm:px-6 lg:px-8 ">
     <div class="max-w-7xl mx-auto">
       <div class="text-center mb-12">
-        <h2 class="text-4xl font-bold text-gray-900 mb-4">Mes services</h2>
-        <p class="text-lg text-gray-600">
+        <h2 v-motion-fade-bottom class="text-4xl font-bold text-gray-900 mb-4">Mes services</h2>
+        <p 
+          v-motion
+          :initial="{ opacity: 0, y: 50 }"
+          :visible="{ opacity: 1, y: 0 }"
+          :delay="100"
+          class="text-lg text-gray-600"
+        >
           Des solutions sur mesure pour répondre à vos besoins
         </p>
       </div>
       
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div 
-          v-for="service in services" 
+          v-for="(service, index) in services" 
           :key="service.title"
+          v-motion
+          :initial="{ opacity: 0, y: 50 }"
+          :visible="{ opacity: 1, y: 0 }"
+          :delay="200 + (index * 100)"
           class="group relative bg-white border border-gray-200 rounded-xl p-8 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 hover:border-primary-400/50"
         >
           <!-- Icon -->

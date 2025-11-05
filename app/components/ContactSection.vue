@@ -2,8 +2,14 @@
   <section id="contact" class="py-20 px-4 sm:px-6 lg:px-8 ">
     <div class="max-w-4xl mx-auto">
       <div class="text-center mb-12">
-        <h2 class="text-4xl font-bold text-gray-900 mb-4">Contactez-moi</h2>
-        <p class="text-lg text-gray-600">
+        <h2 v-motion-fade-bottom class="text-4xl font-bold text-gray-900 mb-4">Contactez-moi</h2>
+        <p 
+          v-motion
+          :initial="{ opacity: 0, y: 50 }"
+          :visible="{ opacity: 1, y: 0 }"
+          :delay="100"
+          class="text-lg text-gray-600"
+        >
           Discutons de votre projet et trouvons ensemble la meilleure solution
         </p>
       </div>
@@ -12,6 +18,10 @@
       <div class="grid md:grid-cols-3 gap-6 mb-12">
         <!-- Téléphone -->
         <a 
+          v-motion
+          :initial="{ opacity: 0, y: 50 }"
+          :visible="{ opacity: 1, y: 0 }"
+          :delay="200"
           :href="`tel:${phoneNumber}`"
           class="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 hover:border-primary-400/50 group"
         >
@@ -26,6 +36,10 @@
         
         <!-- Email -->
         <a 
+          v-motion
+          :initial="{ opacity: 0, y: 50 }"
+          :visible="{ opacity: 1, y: 0 }"
+          :delay="300"
           href="mailto:sedrickmungobo1@gmail.com"
           class="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 hover:border-primary-400/50 group"
         >
@@ -39,7 +53,13 @@
         </a>
         
         <!-- Localisation -->
-        <div class="bg-white border border-gray-200 rounded-xl p-6">
+        <div 
+          v-motion
+          :initial="{ opacity: 0, y: 50 }"
+          :visible="{ opacity: 1, y: 0 }"
+          :delay="400"
+          class="bg-white border border-gray-200 rounded-xl p-6"
+        >
           <div class="flex items-center justify-center w-12 h-12 bg-primary-400/10 rounded-lg mb-4">
             <svg class="w-6 h-6 text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
@@ -51,10 +71,22 @@
         </div>
       </div>
       
-      <form @submit.prevent="handleSubmit" class="bg-white border border-gray-200 rounded-xl p-8 shadow-sm">
+      <form 
+        v-motion
+        :initial="{ opacity: 0, y: 50 }"
+        :visible="{ opacity: 1, y: 0 }"
+        :delay="500"
+        @submit.prevent="handleSubmit" 
+        class="bg-white border border-gray-200 rounded-xl p-8 shadow-sm"
+      >
         <div class="grid md:grid-cols-2 gap-6 mb-6">
           <!-- Nom -->
-          <div>
+          <div 
+            v-motion
+            :initial="{ opacity: 0, y: 30 }"
+            :visible="{ opacity: 1, y: 0 }"
+            :delay="600"
+          >
             <label for="name" class="block text-sm font-medium text-gray-700 mb-2">
               Nom complet *
             </label>
@@ -69,7 +101,12 @@
           </div>
           
           <!-- Email -->
-          <div>
+          <div 
+            v-motion
+            :initial="{ opacity: 0, y: 30 }"
+            :visible="{ opacity: 1, y: 0 }"
+            :delay="700"
+          >
             <label for="email" class="block text-sm font-medium text-gray-700 mb-2">
               Email
             </label>
@@ -84,7 +121,13 @@
         </div>
         
         <!-- Sujet -->
-        <div class="mb-6">
+        <div 
+          v-motion
+          :initial="{ opacity: 0, y: 30 }"
+          :visible="{ opacity: 1, y: 0 }"
+          :delay="800"
+          class="mb-6"
+        >
           <label for="subject" class="block text-sm font-medium text-gray-700 mb-2">
             Sujet *
           </label>
@@ -106,7 +149,13 @@
         </div>
         
         <!-- Message -->
-        <div class="mb-6">
+        <div 
+          v-motion
+          :initial="{ opacity: 0, y: 30 }"
+          :visible="{ opacity: 1, y: 0 }"
+          :delay="900"
+          class="mb-6"
+        >
           <label for="message" class="block text-sm font-medium text-gray-700 mb-2">
             Message *
           </label>
@@ -122,6 +171,10 @@
         
         <!-- Submit Button -->
         <button
+          v-motion
+          :initial="{ opacity: 0, y: 30 }"
+          :visible="{ opacity: 1, y: 0 }"
+          :delay="1000"
           type="submit"
           class="w-full bg-primary-400 text-gray-900 px-6 py-3 rounded-lg hover:bg-primary-500 transition-all text-base font-medium shadow-sm flex items-center justify-center gap-2"
         >
