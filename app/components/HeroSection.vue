@@ -119,22 +119,22 @@ const socialLinks = [
   {
     name: 'Facebook',
     icon: 'f',
-    url: '#'
+    url: 'https://web.facebook.com/cedric.mungobo'
   },
   {
     name: 'LinkedIn',
     icon: 'in',
-    url: '#'
+    url: 'https://www.linkedin.com/in/cedric-mungobo-ab7728215/'
   },
   {
     name: 'Email',
     icon: '✉',
-    url: 'mailto:patrick.aime.714@gmail.com'
+    url: 'mailto:sedrickmungobo1@gmail.com'
   },
   {
     name: 'Phone',
     icon: '📞',
-    url: 'tel:+2250708377751'
+    url: 'tel:+243826785727'
   }
 ]
 </script>
