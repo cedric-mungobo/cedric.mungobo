@@ -6,19 +6,8 @@
     <!-- Mes Projets Section -->
     <MesProjets />
 
-    <!-- Skills Section -->
-    <section id="skills" class="py-20 bg-gray-50">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-8 gap-8">
-          <div v-for="skill in skills" :key="skill.name" class="flex flex-col items-center">
-            <div class="w-16 h-16 bg-white rounded-lg shadow-md flex items-center justify-center mb-2">
-              <span class="text-2xl">{{ skill.icon }}</span>
-            </div>
-            <span class="text-sm text-gray-600 text-center">{{ skill.name }}</span>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- Mes Services Section -->
+    <MesServices />
 
     <!-- Footer -->
     <footer class="bg-gray-900 text-white py-8 px-4 sm:px-6 lg:px-8">
@@ -30,30 +19,6 @@
 </template>
 
 <script lang="ts" setup>
-const skills = [
-  { name: 'GitHub', icon: '🔗' },
-  { name: 'Figma', icon: '🎨' },
-  { name: 'MySQL', icon: '🗄️' },
-  { name: 'PostgreSQL', icon: '🐘' },
-  { name: 'WordPress', icon: '📝' },
-  { name: 'VS Code', icon: '💻' },
-  { name: 'JavaScript', icon: '📜' },
-  { name: 'jQuery', icon: '⚡' },
-  { name: 'Bootstrap', icon: '🎯' },
-  { name: 'Tailwind', icon: '💨' },
-  { name: 'React', icon: '⚛️' },
-  { name: 'ReactQuery', icon: '🔄' },
-  { name: 'Next.js', icon: '▲' },
-  { name: 'Node.js', icon: '🟢' },
-  { name: 'Laravel', icon: '🔴' },
-  { name: 'Flutter', icon: '📱' },
-  { name: 'Dart', icon: '🎯' },
-  { name: 'Electron', icon: '⚡' },
-  { name: 'Docker', icon: '🐳' },
-  { name: 'Vite', icon: '⚡' },
-  { name: 'Git', icon: '📦' },
-]
-
 const services = [
   {
     icon: '💻',
