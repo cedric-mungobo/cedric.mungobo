@@ -1,15 +1,15 @@
 <template>
-  <section id="hero" class="relative pt-32 pb-20 px-4   sm:px-6 lg:px-8 min-h-screen flex items-center overflow-hidden ">
+  <section id="hero" class="relative pt-24 md:pt-32 pb-20 px-4 sm:px-6 lg:px-8 min-h-screen flex items-center overflow-hidden ">
     <!-- Background Grid Pattern -->
     <div class="absolute inset-0 opacity-[0.04]" style="background-image: linear-gradient(rgba(0,0,0,0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(0,0,0,0.08) 1px, transparent 1px); background-size: 50px 50px;"></div>
     
     <!-- Decorative Shapes -->
-    <div class="absolute top-20 right-20 w-64 h-64 border-4 border-primary-400 rounded-full opacity-[0.08] blur-3xl"></div>
-    <div class="absolute bottom-20 left-20 w-96 h-32 border-4 border-primary-400 opacity-[0.08] blur-3xl" style="border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;"></div>
+    <div class="absolute top-10 right-10 md:top-20 md:right-20 w-48 h-48 md:w-64 md:h-64 border-4 border-primary-400 rounded-full opacity-[0.08] blur-3xl"></div>
+    <div class="absolute bottom-10 left-10 md:bottom-20 md:left-20 w-64 h-24 md:w-96 md:h-32 border-4 border-primary-400 opacity-[0.08] blur-3xl" style="border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;"></div>
     
     <!-- Animated Marker Icon (Top Right) - Organic curved shape -->
-    <div class="absolute top-32 right-32 z-20 marker-icon">
-      <svg class="w-24 h-24 text-primary-400" fill="none" viewBox="0 0 120 80" stroke="currentColor" stroke-width="2.5">
+    <div class="absolute top-20 right-10 md:top-32 md:right-32 z-20 marker-icon hidden md:block">
+      <svg class="w-16 h-16 md:w-24 md:h-24 text-primary-400" fill="none" viewBox="0 0 120 80" stroke="currentColor" stroke-width="2.5">
         <!-- Organic flowing curve shape -->
         <path d="M10,40 Q30,15 50,30 T90,25" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.9"/>
         <path d="M15,50 Q35,30 55,40 T95,35" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.8"/>
@@ -69,7 +69,7 @@
           :initial="{ opacity: 0, y: 50 }"
           :visible="{ opacity: 1, y: 0 }"
           :delay="200"
-          class="text-center md:text-left sm:col-span-2"
+          class="text-center md:text-left md:col-span-2"
         >
           <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4" style="font-family: 'Inter', -apple-system, sans-serif; font-weight: 700; letter-spacing: -0.03em;">
             Je suis Cedric Mungobo,
