@@ -34,15 +34,15 @@
         :delay="800"
         class="text-center my-12"
       >
-        <a 
-          href="#contact" 
+        <NuxtLink 
+          to="#contact" 
           class="inline-flex items-center gap-2 text-gray-900 hover:text-primary-400 font-semibold transition-colors"
         >
           Voir tous les projets
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
           </svg>
-        </a>
+        </NuxtLink>
       </div>
     </div>
   </section>
