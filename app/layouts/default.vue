@@ -2,7 +2,7 @@
   <div class="min-h-screen  relative">
     <!-- Background Pattern -->
     <div class="absolute inset-0">
-      <div class="absolute inset-0 opacity-[0.15] dark:opacity-[0.1]">
+      <div class="absolute inset-0 opacity-[0.15]">
         <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
           <pattern id="binary-pattern" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
             <text x="0" y="10" font-size="10" fill="#3b82f6">10110101</text>
@@ -19,7 +19,7 @@
           <rect width="100%" height="100%" fill="url(#binary-pattern)" />
         </svg>
       </div>
-      <div class="absolute inset-0 bg-gradient-to-br from-white via-white/0 to-white dark:from-gray-950 dark:via-gray-950/0 dark:to-gray-950" />
+      <div class="absolute inset-0 bg-gradient-to-br from-white via-white/0 to-white" />
     </div>
     
     <!-- Navigation -->
@@ -27,8 +27,11 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center h-16 w-full">
           <!-- Name  -->
-          <div class="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 shrink-0 z-10">
-            Cedric Mungobo
+          <div class="flex items-center gap-2 text-lg sm:text-xl md:text-2xl font-bold text-gray-900 shrink-0 z-10">
+            <svg class="w-5 h-5 sm:w-6 sm:h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+            </svg>
+            <span>Cedric Mungobo</span>
           </div>
           
           <!-- Center: Navigation Links (desktop only) -->
