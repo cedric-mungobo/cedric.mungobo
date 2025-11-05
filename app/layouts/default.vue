@@ -1,5 +1,27 @@
 <template>
-  <div class="min-h-screen bg-white">
+  <div class="min-h-screen bg-white relative">
+    <!-- Background Pattern -->
+    <div class="absolute inset-0 bg-white dark:bg-gray-950">
+      <div class="absolute inset-0 opacity-[0.15] dark:opacity-[0.1]">
+        <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+          <pattern id="binary-pattern" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+            <text x="0" y="10" font-size="10" fill="#3b82f6">10110101</text>
+            <text x="20" y="20" font-size="10" fill="#3b82f6">01001010</text>
+            <text x="0" y="30" font-size="10" fill="#3b82f6">11010010</text>
+            <text x="20" y="40" font-size="10" fill="#3b82f6">00101101</text>
+            <text x="0" y="50" font-size="10" fill="#a855f7">10110101</text>
+            <text x="20" y="60" font-size="10" fill="#a855f7">01001010</text>
+            <text x="0" y="70" font-size="10" fill="#3b82f6">11010010</text>
+            <text x="20" y="80" font-size="10" fill="#3b82f6">00101101</text>
+            <text x="0" y="90" font-size="10" fill="#3b82f6">10110101</text>
+            <text x="20" y="100" font-size="10" fill="#3b82f6">01001010</text>
+          </pattern>
+          <rect width="100%" height="100%" fill="url(#binary-pattern)" />
+        </svg>
+      </div>
+      <div class="absolute inset-0 bg-gradient-to-br from-white via-white/0 to-white dark:from-gray-950 dark:via-gray-950/0 dark:to-gray-950" />
+    </div>
+    
     <!-- Navigation -->
     <nav class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm ">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -47,7 +69,9 @@
       </div>
     </nav>
     
-    <slot/>
+    <div class="relative z-10">
+      <slot/>
+    </div>
   </div>
 </template>
 

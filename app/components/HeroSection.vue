@@ -1,5 +1,5 @@
 <template>
-  <section id="hero" class="relative pt-32 pb-20 px-4   sm:px-6 lg:px-8 min-h-screen flex items-center overflow-hidden bg-white">
+  <section id="hero" class="relative pt-32 pb-20 px-4   sm:px-6 lg:px-8 min-h-screen flex items-center overflow-hidden ">
     <!-- Background Grid Pattern -->
     <div class="absolute inset-0 opacity-[0.04]" style="background-image: linear-gradient(rgba(0,0,0,0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(0,0,0,0.08) 1px, transparent 1px); background-size: 50px 50px;"></div>
     
@@ -23,7 +23,7 @@
         <div class="flex flex-col items-center md:items-start">
           <!-- Profile Picture with Primary Border -->
           <div class="relative mb-8">
-            <div class="absolute -inset-3 rounded-2xls border-8 border-primary-400 transform rotate-12"></div>
+            <div class="absolute -inset-3 rounded-2xl border-8 border-primary-400 transform rotate-12"></div>
             <div class="relative w-48 h-48 md:w-64 md:h-64 rounded-2xl overflow-hidden bg-primary-200 ring-4 ring-white shadow-lg">
               <picture>
                 <source srcset="/images/profil_compressed.jpg" type="image/jpeg">

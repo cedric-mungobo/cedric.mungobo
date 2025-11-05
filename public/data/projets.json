@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Lunabetting",
+    "description": "Une plateforme de paris en ligne complète avec système de gestion des cotes en temps réel, paiements sécurisés et interface intuitive pour les parieurs.",
+    "image": "/images/lunabetting.png",
+    "link": "https://lunabetting.com/",
+    "linkType": "site"
+  },
+  {
+    "title": "MDL Trans",
+    "description": "App métier pour une société de transport : gestion des véhicules, suivi des chauffeurs, carburant, rapports automatiques.",
+    "image": "/images/mdl.png",
+    "link": "https://mdltrans.com",
+    "linkType": "site"
+  },
+  {
+    "title": "Cartes de visite digitales",
+    "description": "Des cartes de visite sans contact pour le réseautage avec la technologie de partage de contact par onde radio NFC.",
+    "image": "/images/giis.png",
+    "link": "https://giisrdc.com/",
+    "linkType": "site"
+  },
+  {
+    "title": "Biso Ticket",
+    "description": "Biso Ticket est une solution congolaise de billetterie électronique qui sécurise vos événements avec des QR codes uniques et anti-fraude.",
+    "image": "/images/bisoticket.png",
+    "link": "https://bisoticket.com",
+    "linkType": "site"
+  },
+  {
+    "title": "Facteplus",
+    "description": "Application SaaS pour gérer clients, produits, devis et factures avec génération de PDF et interface claire.",
+    "image": "/images/facteplus.png",
+    "link": "https://facteplus.com",
+    "linkType": "site"
+  },
+  {
+    "title": "Centre Nganda",
+    "description": "Site web pour le centre hospitalier Nganda : Accueil, À propos, Services, Radiothérapie, Guichet unique dépistage, Blog, Demande de stage, contact.",
+    "image": "/images/nganda.png",
+    "link": "https://centrehospitaliernganda.com/",
+    "linkType": "site"
+  },
+  {
+    "title": "Cliniques du Coeur",
+    "description": "Design UI/UX complet pour un centre médical : interface de prise de RDV, espace patient et consultation des résultats.",
+    "image": "https://via.placeholder.com/200",
+    "link": "https://figma.com/file/cliniquesducoeur",
+    "linkType": "figma"
+  },
+  {
+    "title": "ISIPA Design System",
+    "description": "Design système complet pour le site web de l'université ISIPA : interface étudiants, portail académique, et système de gestion des cours.",
+    "image": "https://via.placeholder.com/200",
+    "link": "https://figma.com/file/isipa-design",
+    "linkType": "figma"
+  }
+]
+
