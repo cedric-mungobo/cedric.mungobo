@@ -26,9 +26,9 @@
             <div class="absolute -inset-3 rounded-2xl border-8 border-primary-400 transform rotate-12"></div>
             <div class="relative w-48 h-48 md:w-64 md:h-64 rounded-2xl overflow-hidden bg-primary-200 ring-4 ring-white shadow-lg">
               <picture>
-                <source srcset="/images/profil.jpg" type="image/jpeg">
+                <source :srcset="profileImage" type="image/jpeg">
                 <img
-                  src="/images/profil.jpg"
+                  :src="profileImage"
                   alt="Cedric Mungobo"
                   class="w-full h-full object-cover object-top transition-transform duration-300 hover:scale-105"
                   loading="lazy"
@@ -115,6 +115,9 @@
 </template>
 
 <script lang="ts" setup>
+// Profile image path - using computed to avoid Vite import resolution issues
+const profileImage = '/images/profil.jpg'
+
 const socialLinks = [
   {
     name: 'Facebook',
