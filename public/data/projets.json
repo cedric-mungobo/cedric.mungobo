@@ -14,48 +14,6 @@
     "linkType": "site"
   },
   {
-    "title": "Cartes de visite digitales",
-    "description": "Des cartes de visite sans contact pour le réseautage avec la technologie de partage de contact par onde radio NFC.",
-    "image": "/images/giis.png",
-    "link": "https://giisrdc.com/",
-    "linkType": "site"
-  },
-  {
-    "title": "Biso Ticket",
-    "description": "Biso Ticket est une solution congolaise de billetterie électronique qui sécurise vos événements avec des QR codes uniques et anti-fraude.",
-    "image": "/images/bisoticket.png",
-    "link": "https://bisoticket.com",
-    "linkType": "site"
-  },
-  {
-    "title": "Facteplus",
-    "description": "Application SaaS pour gérer clients, produits, devis et factures avec génération de PDF et interface claire.",
-    "image": "/images/facteplus.png",
-    "link": "https://facteplus.com",
-    "linkType": "site"
-  },
-  {
-    "title": "Centre Nganda",
-    "description": "Site web institutionnel pour le centre hospitalier Nganda avec présentation des services médicaux, prise de rendez-vous en ligne et formulaire de contact.",
-    "image": "/images/nganda.png",
-    "link": "https://centrehospitaliernganda.com/",
-    "linkType": "site"
-  },
-  {
-    "title": "Cliniques du Coeur",
-    "description": "Site web pour un centre médical avec interface de prise de rendez-vous en ligne, espace patient et consultation des résultats médicaux.",
-    "image": "/images/cliniquesducoeur.png",
-    "link": "https://lescliniquesducoeur.com/",
-    "linkType": "site"
-  },
-  {
-    "title": "ISIPA Design System",
-    "description": "Design système complet pour le site web de l'université ISIPA : interface étudiants, portail académique, et système de gestion des cours.",
-    "image": "https://via.placeholder.com/200",
-    "link": "https://figma.com/file/isipa-design",
-    "linkType": "figma"
-  },
-  {
     "title": "Vitrine Express",
     "description": "Plateforme e-commerce multi-vendeurs qui réunit plusieurs fournisseurs en une seule marketplace pour faciliter les achats et la gestion des commandes.",
     "image": "/images/vitrineexpress.png",
@@ -69,13 +27,60 @@
     "link": "https://resto.ebuapp.com",
     "linkType": "site"
   },
+ 
   {
-    "title": "Biso Ticket Check",
-    "description": "Application mobile de vérification de billets avec fonctionnalité de scanning QR code, mode hors ligne et synchronisation automatique des données.",
-    "image": "/images/bisoticketcheck.png",
+    "title": "Biso Ticket",
+    "description": "Biso Ticket est une solution congolaise de billetterie électronique qui sécurise vos événements avec des QR codes uniques et anti-fraude.",
+    "image": "/images/bisoticket.png",
     "link": "https://bisoticket.com",
     "linkType": "site"
   },
+  {
+    "title": "Centre Nganda",
+    "description": "Site web institutionnel pour le centre hospitalier Nganda avec présentation des services médicaux, prise de rendez-vous en ligne et formulaire de contact.",
+    "image": "/images/nganda.png",
+    "link": "https://centrehospitaliernganda.com/",
+    "linkType": "site"
+  },
+  {
+    "title": "Facteplus",
+    "description": "Application SaaS pour gérer clients, produits, devis et factures avec génération de PDF et interface claire.",
+    "image": "/images/facteplus.png",
+    "link": "https://facteplus.com",
+    "linkType": "site"
+  },
+ 
+  {
+    "title": "Akanalp",
+    "description": "Plateforme de ventes de productions communautaires destinées aux partenaires internationaux pour promouvoir les produits locaux et créer des opportunités d'exportation.",
+    "image": "/images/akanalp.png",
+    "link": "https://akanalp.com",
+    "linkType": "site"
+  },
+  {
+    "title": "Cliniques du Coeur",
+    "description": "Site web pour un centre médical avec interface de prise de rendez-vous en ligne, espace patient et consultation des résultats médicaux.",
+    "image": "/images/cliniquesducoeur.png",
+    "link": "https://lescliniquesducoeur.com/",
+    "linkType": "site"
+  },
+  {
+    "title": "Cartes de visite digitales",
+    "description": "Des cartes de visite sans contact pour le réseautage avec la technologie de partage de contact par onde radio NFC.",
+    "image": "/images/giis.png",
+    "link": "https://giisrdc.com/",
+    "linkType": "site"
+  },
+
+  {
+    "title": "Biso Ticket Check",
+    "description": "Application mobile de vérification de billets avec fonctionnalité de scanning QR code, mode hors ligne et synchronisation automatique des données.",
+    "image": "/images/bisoticket.png",
+    "link": "https://bisoticket.com",
+    "linkType": "site"
+  },
+
+
   {
     "title": "Centenaire de Gombe",
     "description": "Site web commémoratif pour célébrer 100 ans d'histoire de la commune de Gombe (1925-2025) avec présentation de l'histoire, des événements et du patrimoine culturel.",
@@ -96,13 +101,7 @@
     "image": "/images/juayaafrika.png",
     "link": "https://juayaafrika.com",
     "linkType": "site"
-  },
-  {
-    "title": "Akanalp",
-    "description": "Plateforme de ventes de productions communautaires destinées aux partenaires internationaux pour promouvoir les produits locaux et créer des opportunités d'exportation.",
-    "image": "/images/akanalp.png",
-    "link": "https://akanalp.com",
-    "linkType": "site"
   }
+
 ]
 

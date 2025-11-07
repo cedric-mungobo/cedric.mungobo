@@ -35,7 +35,7 @@
         class="text-center my-12"
       >
         <NuxtLink 
-          to="#contact" 
+          to="/projets" 
           class="inline-flex items-center gap-2 text-gray-900 hover:text-primary-400 font-semibold transition-colors"
         >
           Voir tous les projets
