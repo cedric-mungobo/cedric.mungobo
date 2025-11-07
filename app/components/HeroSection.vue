@@ -20,7 +20,7 @@
     <div class="max-w-5xl mx-auto w-full relative z-10">
       <div class="grid md:grid-cols-3 gap-4 items-center">
         <!-- Left Side - Profile -->
-        <div v-motion-fade-bottom class="flex flex-col items-center md:items-start">
+        <div v-motion-fade-bottom class="flex flex-col items-center md:items-start mt-10">
           <!-- Profile Picture with Primary Border -->
           <div class="relative mb-8">
             <div class="absolute -inset-3 rounded-2xl border-8 border-primary-400 transform rotate-12"></div>
