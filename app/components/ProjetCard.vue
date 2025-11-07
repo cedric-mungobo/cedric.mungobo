@@ -13,10 +13,11 @@
     <!-- Project Image -->
     <div class="relative h-56 m-2.5 overflow-hidden text-white rounded-md group">
       <img 
-        :src="projet.image || '/placeholder-project.jpg'" 
+        :src="getImagePath(projet.image)" 
         :alt="projet.title"
         class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
         loading="lazy"
+        @error="handleImageError"
       >
       <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
     </div>
@@ -51,9 +52,23 @@ interface Projet {
   linkType?: 'site' | 'figma'
 }
 
-defineProps<{
+const props = defineProps<{
   projet: Projet
 }>()
+
+// Helper function to get image path (prevents router warnings)
+const getImagePath = (imagePath: string | undefined) => {
+  if (!imagePath) return '/placeholder-project.jpg'
+  // If it's already a full URL, return as is
+  if (imagePath.startsWith('http')) return imagePath
+  // For public assets, ensure they're treated as static files
+  return imagePath.startsWith('/') ? imagePath : `/${imagePath}`
+}
+
+const handleImageError = (event: Event) => {
+  const img = event.target as HTMLImageElement
+  img.src = '/placeholder-project.jpg'
+}
 </script>
 
 <style scoped>

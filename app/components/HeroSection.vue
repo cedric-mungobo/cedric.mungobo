@@ -26,9 +26,9 @@
             <div class="absolute -inset-3 rounded-2xl border-8 border-primary-400 transform rotate-12"></div>
             <div class="relative w-48 h-48 md:w-64 md:h-64 rounded-2xl overflow-hidden bg-primary-200 ring-4 ring-white shadow-lg">
               <picture>
-                <source srcset="/images/profil_compressed.jpg" type="image/jpeg">
+                <source srcset="/images/profil.jpg" type="image/jpeg">
                 <img
-                  src="/images/profil_compressed.jpg"
+                  src="/images/profil.jpg"
                   alt="Cedric Mungobo"
                   class="w-full h-full object-cover object-top transition-transform duration-300 hover:scale-105"
                   loading="lazy"
