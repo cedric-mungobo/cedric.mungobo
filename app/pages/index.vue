@@ -9,6 +9,9 @@
     <!-- Mes Services Section -->
     <MesServices />
 
+    <!-- Technologies Section -->
+    <Technologies />
+
     <!-- Contact Section -->
     <ContactSection />
 

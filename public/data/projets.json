@@ -36,17 +36,17 @@
   },
   {
     "title": "Centre Nganda",
-    "description": "Site web pour le centre hospitalier Nganda : Accueil, À propos, Services, Radiothérapie, Guichet unique dépistage, Blog, Demande de stage, contact.",
+    "description": "Site web institutionnel pour le centre hospitalier Nganda avec présentation des services médicaux, prise de rendez-vous en ligne et formulaire de contact.",
     "image": "/images/nganda.png",
     "link": "https://centrehospitaliernganda.com/",
     "linkType": "site"
   },
   {
     "title": "Cliniques du Coeur",
-    "description": "Design UI/UX complet pour un centre médical : interface de prise de RDV, espace patient et consultation des résultats.",
-    "image": "https://via.placeholder.com/200",
-    "link": "https://figma.com/file/cliniquesducoeur",
-    "linkType": "figma"
+    "description": "Site web pour un centre médical avec interface de prise de rendez-vous en ligne, espace patient et consultation des résultats médicaux.",
+    "image": "/images/cliniquesducoeur.png",
+    "link": "https://lescliniquesducoeur.com/",
+    "linkType": "site"
   },
   {
     "title": "ISIPA Design System",
@@ -54,6 +54,55 @@
     "image": "https://via.placeholder.com/200",
     "link": "https://figma.com/file/isipa-design",
     "linkType": "figma"
+  },
+  {
+    "title": "Vitrine Express",
+    "description": "Plateforme e-commerce multi-vendeurs qui réunit plusieurs fournisseurs en une seule marketplace pour faciliter les achats et la gestion des commandes.",
+    "image": "/images/vitrineexpress.png",
+    "link": "https://vitrineexpress.net",
+    "linkType": "site"
+  },
+  {
+    "title": "Resto EBU App",
+    "description": "Application mobile ERP complète de restauration pour la gestion des commandes, ventes, stocks et rapports en temps réel.",
+    "image": "/images/restoebu.png",
+    "link": "https://resto.ebuapp.com",
+    "linkType": "site"
+  },
+  {
+    "title": "Biso Ticket Check",
+    "description": "Application mobile de vérification de billets avec fonctionnalité de scanning QR code, mode hors ligne et synchronisation automatique des données.",
+    "image": "/images/bisoticketcheck.png",
+    "link": "https://bisoticket.com",
+    "linkType": "site"
+  },
+  {
+    "title": "Centenaire de Gombe",
+    "description": "Site web commémoratif pour célébrer 100 ans d'histoire de la commune de Gombe (1925-2025) avec présentation de l'histoire, des événements et du patrimoine culturel.",
+    "image": "/images/centenairedegombe.png",
+    "link": "https://centenairedegombe.cd",
+    "linkType": "site"
+  },
+  {
+    "title": "CMBB - Crée ta Marque Be a Boss",
+    "description": "Site web institutionnel pour accompagner les jeunes entrepreneurs dans le développement de marques Made in RDC et Made in Africa avec formation, mentorat et organisation d'événements.",
+    "image": "/images/cmbb.png",
+    "link": "https://cmbb.cd",
+    "linkType": "site"
+  },
+  {
+    "title": "Juayaafrika",
+    "description": "Site web pour une agence de communication et marketing digital offrant des services de développement web, design graphique, e-mailing et organisation de masterclasses.",
+    "image": "/images/juayaafrika.png",
+    "link": "https://juayaafrika.com",
+    "linkType": "site"
+  },
+  {
+    "title": "Akanalp",
+    "description": "Plateforme de ventes de productions communautaires destinées aux partenaires internationaux pour promouvoir les produits locaux et créer des opportunités d'exportation.",
+    "image": "/images/akanalp.png",
+    "link": "https://akanalp.com",
+    "linkType": "site"
   }
 ]
 
